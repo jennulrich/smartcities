@@ -1,0 +1,26 @@
+<!--
+  Generated template for the AccueilTicketPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-buttons start padding-top>
+      <button ion-button icon-only menuToggle class="menu">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+</ion-header>
+
+
+<ion-content padding class="bg-vente-ticket">
+  <button ion-button block class="ticket" (click)="trajetJournalier()">
+    Trajet journalier
+  </button>
+  <button ion-button block class="ticket" (click)="trajetTouristique()">
+    Trajet touristique
+  </button>
+  <button ion-button block class="ticket" (click)="listTicket()">
+    Liste tickets
+  </button>
+</ion-content>

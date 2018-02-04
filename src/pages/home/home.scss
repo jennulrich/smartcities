@@ -1,0 +1,16 @@
+page-home {
+  .bg-home {
+    background-image: url("../../assets/imgs/Home.jpg");
+    background-size: cover;
+  }
+
+  .buttons_log {
+    position: relative;
+    top: 440px;
+  }
+
+  .login {
+    background-color: white;
+    color: grey;
+  }
+}

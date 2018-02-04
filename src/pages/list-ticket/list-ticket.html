@@ -1,0 +1,89 @@
+<!--
+  Generated template for the ListTicketPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Liste des ticket</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-title>Tickets pour tous</ion-title>
+  <ion-list>
+    <ion-item>
+      <ion-label>Ticket Île-de-France</ion-label>
+      <ion-toggle [(ngModel)]="idf"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Ticket aéroport</ion-label>
+      <ion-toggle [(ngModel)]="aeroport"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Ticket T+</ion-label>
+      <ion-toggle [(ngModel)]="tplus"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Mobilis</ion-label>
+      <ion-toggle [(ngModel)]="mobilis"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Forfait Paris Visite</ion-label>
+      <ion-toggle [(ngModel)]="visite"></ion-toggle>
+    </ion-item>
+  </ion-list>
+  <ion-title>Tickets jeunes</ion-title>
+  <ion-list>
+    <ion-item>
+      <ion-label>Ticket Jeunes Week-End</ion-label>
+      <ion-toggle [(ngModel)]="weekend"></ion-toggle>
+    </ion-item>
+  </ion-list>
+  <ion-title>Tickets solidarité</ion-title>
+  <ion-list>
+    <ion-item>
+      <ion-label>Bénéficiaires d'aides sociales</ion-label>
+      <ion-toggle [(ngModel)]="aides"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Jeunes en insertion</ion-label>
+      <ion-toggle [(ngModel)]="insertion"></ion-toggle>
+    </ion-item>
+  </ion-list>
+  <ion-title>Tarifs réduits</ion-title>
+  <ion-list>
+    <ion-item>
+      <ion-label>Famille nombreuse</ion-label>
+      <ion-toggle [(ngModel)]="famille"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Enfant</ion-label>
+      <ion-toggle [(ngModel)]="enfant"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Salarié</ion-label>
+      <ion-toggle [(ngModel)]="salarie"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Groupe jeune</ion-label>
+      <ion-toggle [(ngModel)]="groupe_jeune"></ion-toggle>
+    </ion-item>
+  </ion-list>
+  <ion-title>Carnets</ion-title>
+  <ion-list>
+    <ion-item>
+      <ion-label>Ticket T+</ion-label>
+      <ion-toggle [(ngModel)]="carnet_t_plus"></ion-toggle>
+    </ion-item>
+  </ion-list>
+</ion-content>
+<ion-footer block>
+  <button>
+    ACHETER
+  </button>
+</ion-footer>

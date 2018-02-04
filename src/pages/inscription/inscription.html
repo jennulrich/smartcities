@@ -1,0 +1,49 @@
+<!--
+  Generated template for the InscriptionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Inscription</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg-signup">
+  <div class="buttons_social">
+    <button ion-button block class="fb">
+      S'inscrire avec Facebook
+    </button>
+    <button ion-button block class="google">
+      S'inscrire avec Google
+    </button>
+    <p>OU</p>
+  </div>
+  <form action="">
+    <ion-list>
+      <div class="inscription">
+        <ion-input type="text" placeholder="Nom"></ion-input>
+      </div>
+      <div  class="inscription" >
+        <ion-input type="text" placeholder="Prénom"></ion-input>
+      </div>
+      <div  class="inscription">
+        <ion-input type="email" placeholder="Adresse e-mail"></ion-input>
+      </div>
+      <div class="inscription">
+        <ion-input type="password" placeholder="Mot de passe"></ion-input>
+      </div>
+      <div  class="inscription">
+        <ion-input type="password" placeholder="Confirmation mot de passe"></ion-input>
+      </div>
+    </ion-list>
+  </form>
+  <button ion-button block class="google" (click)="homeTicket()">
+    Inscription
+  </button>
+  <p class="cg">En cliquant sur Inscription vous acceptez les Conditions Générales.</p>
+</ion-content>

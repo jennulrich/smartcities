@@ -1,0 +1,93 @@
+<!--
+  Generated template for the TrajetTouristiquePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Trajet Touristique</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <h4 padding>Choix des lieux touristiques :</h4>
+    <ion-list>
+      <h6>Monuments :</h6>
+      <ion-item>
+        <ion-label>Avenue des Champs-Elysées</ion-label>
+        <ion-toggle [(ngModel)]="champs"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Arc de Triomphe</ion-label>
+        <ion-toggle [(ngModel)]="triomphe"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Catacombes de Paris</ion-label>
+        <ion-toggle [(ngModel)]="kta"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Jardin des Tuileries</ion-label>
+        <ion-toggle [(ngModel)]="tuileries"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Montmarte</ion-label>
+        <ion-toggle [(ngModel)]="montmartre"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Moulin-Rouge</ion-label>
+        <ion-toggle [(ngModel)]="moulin"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Panthéon</ion-label>
+        <ion-toggle [(ngModel)]="pantheon"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Place de la Concorde</ion-label>
+        <ion-toggle [(ngModel)]="concorde"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Pont des Arts</ion-label>
+        <ion-toggle [(ngModel)]="arts"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Tour Eiffel</ion-label>
+        <ion-toggle [(ngModel)]="eiffel"></ion-toggle>
+      </ion-item>
+
+
+      <h6>Musée :</h6>
+      <ion-item>
+        <ion-label>Musée Carnavalet</ion-label>
+        <ion-toggle [(ngModel)]="carnavalet"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Musée Cluny</ion-label>
+        <ion-toggle [(ngModel)]="cluny"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Musée Grévin</ion-label>
+        <ion-toggle [(ngModel)]="grevin"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Musée du Louvre</ion-label>
+        <ion-toggle [(ngModel)]="louvre"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Musée de l'Orangerie</ion-label>
+        <ion-toggle [(ngModel)]="porangerie"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Musée Picasso</ion-label>
+        <ion-toggle [(ngModel)]="picasso"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Musée Rodin</ion-label>
+        <ion-toggle [(ngModel)]="rodin"></ion-toggle>
+      </ion-item>
+
+    </ion-list>
+
+  <button ion-button block class="validerParcour">Lancer le circuit</button>
+</ion-content>

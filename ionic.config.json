@@ -1,0 +1,8 @@
+{
+  "name": "agorize_prod",
+  "app_id": "4c007d38",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

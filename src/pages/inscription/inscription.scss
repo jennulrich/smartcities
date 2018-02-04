@@ -1,0 +1,30 @@
+page-inscription {
+  .bg-signup {
+    background-color: #F1F5F6;
+  }
+
+  .fb {
+    background-color: #43619C;
+  }
+
+  .google {
+    background-color: #3BD27D;
+  }
+
+  p {
+    color: grey;
+    text-align: center;
+  }
+
+  p.cg {
+    margin-top: 30px;
+    font-size: 9pt;
+  }
+
+  div.inscription {
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 3px;
+    padding-left: 10px; margin-bottom: 3px
+  }
+}

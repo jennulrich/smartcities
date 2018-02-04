@@ -1,0 +1,38 @@
+page-non-valide {
+
+    #conteneur{
+      display:flex;
+      justify-content: space-around;
+      border: 0.5px solid lightgrey;
+      background-color: lightgrey;
+    }
+    .date{
+      padding-left: 12px;
+      font-size: 17px;
+      text-align: center;
+    }
+    .prochainM{
+      padding: 0 12px 0 12px;
+    }
+    li{
+      padding: 5px;
+      width: 80%;
+      border-bottom: 0.5px solid lightgrey;
+      margin: 5px;
+    }
+    .QRCode{
+      text-align: center;
+      //position: relative;
+    }
+    .positionBas{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .buttonScannez{
+      border-radius: 0;
+      margin-bottom: 0 !important;
+      background-color: #3BD27D;
+    }
+
+}

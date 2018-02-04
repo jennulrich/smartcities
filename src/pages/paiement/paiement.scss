@@ -1,0 +1,22 @@
+page-paiement {
+  .bg-paiement {
+    background-color: #F1F5F6;
+  }
+
+  div p {
+    display: inline-block;
+    width: 90%;
+    position: relative;
+    padding-left: 15px;
+    color: grey;
+  }
+
+  ion-footer button {
+    height: 50px;
+    width: 100%;
+    border-radius: 0;
+    background-color: #3BD27D;
+    color: white;
+    font-size: 12pt;
+  }
+}

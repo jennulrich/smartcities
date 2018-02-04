@@ -1,0 +1,22 @@
+page-list-ticket {
+  ion-title {
+    padding: 15px;
+  }
+
+  ion-footer button {
+    height: 50px;
+    width: 100%;
+    border-radius: 0;
+    background-color: #3BD27D;
+    color: white;
+    font-size: 12pt;
+  }
+
+  div .toggle-icon{
+    background-color: blueviolet !important;
+  }
+
+  ion-item ion-label {
+    color: grey;
+  }
+}

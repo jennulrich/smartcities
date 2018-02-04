@@ -1,0 +1,48 @@
+page-trajet-journalier {
+  img {
+  }
+
+  ion-input.trajet span {
+    color: grey;
+  }
+
+  ion-row {
+    border-bottom: 1px solid lightgrey;
+  }
+
+  ion-row div.infos {
+    padding: 15px;
+    border-right: 1px solid lightgrey;
+    color: grey;
+  }
+
+  ion-row div.info {
+    padding: 15px;
+    color: grey;
+  }
+
+  ion-row div.infos:nth-last-child(1){
+    border: none;
+  }
+
+  ion-list.list {
+    margin-bottom: 0;
+  }
+
+  ion-input.depart[placeholder] {
+    color: #3BD27D;
+  }
+
+  ion-input.arrivee[placeholder] {
+    color: red;
+  }
+
+  ion-footer button {
+    height: 50px;
+    width: 100%;
+    border-radius: 0;
+    background-color: #3BD27D;
+    color: white;
+    font-size: 12pt;
+  }
+}
